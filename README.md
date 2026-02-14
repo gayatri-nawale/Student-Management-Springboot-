@@ -17,6 +17,6 @@ A simple Spring Boot web application to:
 - Maven
 
 ## How to Run
- Go to main folder - src/main/java/com/gayatri/jobapplication/StudentApplication.java
- Run the Application ▶️
- Open browser: http://localhost:8080/home
+ - Go to main folder - src/main/java/com/gayatri/jobapplication/StudentApplication.java
+ - Run the Application ▶️
+ - Open browser: http://localhost:8080/home
