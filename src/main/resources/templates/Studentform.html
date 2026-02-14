@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Home page</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<h1>Student Database </h1>
+<nav>
+    <ul>
+        <li><a href="home">Home</a></li>
+        <li><a href="allstudents">All students</a></li>
+        <li><a href="studentform">Student From</a></li>
+    </ul>
+
+</nav>
+<h1>Add Student</h1>
+
+<form action="/handleform" method="post">
+    Roll No: <input type="number" name="rn"><br><br>
+    Name: <input type="text" name="name"><br><br>
+    City: <input type="text" name="city"><br><br>
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
