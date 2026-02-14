@@ -10,9 +10,9 @@ import java.util.List;
 public class StudentRepo {
 
     List<Student> students=new ArrayList<>(Arrays.asList(
-            new Student(1,"Gayatri","pune"),
-            new Student(2,"Pooja","Sangamner"),
-            new Student(3,"Neha","mumbai")
+            new Student(1,"Gayatri","Pune"),
+            new Student(2,"Pooja","Hyderabad"),
+            new Student(3,"Neha","Mumbai")
     ));
     public List<Student> allstudents(){
         return students;
